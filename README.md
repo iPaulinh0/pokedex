@@ -11,5 +11,5 @@ Um modelo de pokedex simples com transições e com foco em consumo de API e tra
 ## Progresso (Progress)
 
 - Lay-out (HTML): :white_check_mark:
-- Design (CSS): Iniciando no Javascript :white_check_mark:
+- Design (CSS): :white_check_mark:
 - Funcionalidades (JS): Montando um layout do zero em HTML e CSS (parte 2) :x:
