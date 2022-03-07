@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@keyframes transform {
+    from {width: 100px; height: 100px;}
+    to {width: 120px; height: 120px;}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokecard {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(180deg, #FFD600 52.44%, #FFFFFF 52.78%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokename {
+    color: #fff;
+    size: 36px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.pokeimg {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.group-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-name {
+  size: 24px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+}
+.p-number {  
+  size: 18px;
+  font-weight: 900;
+  color: black;
+}
+
+.pokeselect img {
+    margin: 10px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    transition: width 450ms, height 450ms;
+}
+
+.pikachu:hover {
+    width: 120px;
+    height: 120px;
+}
+.charmander:hover {
+    width: 120px;
+    height: 120px;
+}
+.bulbassaur:hover {
+    width: 120px;
+    height: 120px;
+}
+.squirtle:hover {
+    width: 120px;
+    height: 120px;
+}
